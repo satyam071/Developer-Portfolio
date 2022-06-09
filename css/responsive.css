@@ -1,0 +1,218 @@
+@media screen and (max-width: 944px) {
+  body {
+    background-color: #ffcd41;
+  }
+  .about {
+    height: 750px;
+  }
+  .container .about .profile {
+    width: 22rem;
+    position: absolute;
+    top: 52%;
+    left: 21%;
+  }
+  .circle {
+    width: 39rem;
+    position: absolute;
+    top: 24%;
+    left: 43%;
+  }
+  .container_skills {
+    flex-direction: row;
+    position: relative;
+    top: 28vh;
+  }
+  .text h1 {
+    position: relative;
+    top: 28vh;
+    text-align: center;
+  }
+  .container_skills .html,
+  .css {
+    height: fit-content;
+    width: 90vw;
+  }
+  .container {
+    height: 42rem;
+    width: 100vw;
+    background-color: #ffcd41;
+  }
+  .container_skills .html,
+  .css {
+    background-color: #e2e0ec;
+    border-left: 10px solid #6f32ff;
+    box-shadow: -7px 11px 6px rgb(74 74 74 / 48%);
+    margin: 21px auto;
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 944px) {
+  body {
+    background-color: white;
+  }
+  .container .about .profile {
+    width: 25rem;
+    left: 57%;
+    top: 17%;
+    position: absolute;
+  }
+  .circle {
+    width: 39rem;
+    position: absolute;
+    top: -9%;
+    left: 66%;
+  }
+  .container_skills {
+    flex-direction: row;
+    top: 28vh;
+  }
+  /* .container_skills .html,
+  .css {
+    height: 43vh;
+    width: 38vw;
+    margin: 22px auto;
+  } */
+  .container_skills .html,
+  .css {
+    height: 38vh;
+    width: 38vw;
+  }
+  .container {
+    height: 37rem;
+    width: 100vw;
+    background-color: #ffcd41;
+  }
+  .container_skills {
+    top: 28vh;
+  }
+  .container_skills .html,
+  .css {
+    background-color: #e2e0ec;
+    border-left: 10px solid #6f32ff;
+    box-shadow: -7px 11px 6px rgb(74 74 74 / 48%);
+    margin: 21px auto;
+    overflow: hidden;
+  }
+  .css:hover {
+    box-shadow: -7px 11px 6px rgba(0, 0, 0, 0.48);
+  }
+  .html:hover {
+    box-shadow: -7px 11px 6px rgba(0, 0, 0, 0.48);
+  }
+}
+@media screen and (max-width: 560px) {
+  .container_skills {
+    flex-direction: row;
+    position: relative;
+    top: 27vh;
+  }
+}
+@media screen and (max-width: 645px) {
+  .circle {
+    top: 37%;
+  }
+  .container .about .profile {
+    width: 22rem;
+    position: absolute;
+    top: 55%;
+    left: 11%;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .about {
+    height: 874px;
+  }
+  .container_skills {
+    top: 46vh;
+  }
+  .text h1 {
+    top: 46vh;
+  }
+  header nav ul a {
+    color: #ffcd41;
+    text-decoration: none;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 276px) {
+  .about {
+    height: 983px;
+  }
+
+  .container_skills {
+    top: 46vh;
+  }
+}
+@media screen and (max-width: 614px) {
+  /* .container .about .profile {
+    width: 22rem;
+    position: absolute;
+    top: 51%;
+    left: 3%;
+  } */
+}
+@media screen and (max-width: 534px) {
+  .circle {
+    width: 39rem;
+    position: absolute;
+    top: 40%;
+    left: 36%;
+  }
+  .container .about p {
+    width: 93%;
+  }
+}
+@media screen and (max-width: 430px) {
+  .about {
+    height: 877px;
+  }
+  .container_skills {
+    flex-direction: row;
+    position: relative;
+    top: 54vh;
+  }
+  .text h1 {
+    position: relative;
+    top: 52vh;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 398px) {
+  .container .about .profile {
+    width: 94%;
+    position: absolute;
+    top: 59%;
+    left: 3%;
+  }
+  .circle {
+    width: 39rem;
+    position: absolute;
+    top: 49%;
+    left: 23%;
+  }
+}
+@media screen and (max-width: 308px) {
+  .circle {
+    width: 39rem;
+    position: absolute;
+    top: 61%;
+    left: -7%;
+  }
+}
+@media screen and (max-width: 300px) {
+  .container .about .profile {
+    width: 94%;
+    position: absolute;
+    top: 66%;
+    left: 3%;
+  }
+}
+/* @media screen and (max-height: 300px) {
+  .container_skills {
+    flex-direction: row;
+    position: relative;
+    top: 50vh;
+  }
+} */
