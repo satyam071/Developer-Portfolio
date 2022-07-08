@@ -150,3 +150,6 @@ h1 {
 #aws_logo{
   /* margin-top: 5px; */
 }
+#awsimg{
+  height: fit-content;
+}
